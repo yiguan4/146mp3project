@@ -79,7 +79,7 @@ const char *songlist_name(size_t item_number) {
 
 void check_sd_error(void) {
   char line1[] = "=== Error";
-  char line2[] = "No SD Detected.";
+  char line2[] = "No SD Mounted.";
 
   lcd_print_line(line1, 1);
   lcd_print_line(line2, 2);
